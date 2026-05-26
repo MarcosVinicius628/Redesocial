@@ -31,3 +31,5 @@ COPY .docker/vhost.conf /etc/apache2/sites-available/000-default.conf
 # Copia a configuração personalizada do Apache
 EXPOSE 80
 # Libera a porta 80 para acesso da aplicação
+RUN apk update && apk add --no-cache git curl zip unzip postgresql-dev libzip-dev \
+    && docker-php-ext-install pdo pdo_pgsql zip
