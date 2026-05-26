@@ -22,7 +22,7 @@ if(posts)
           <span>${post_data[i][2]}m</span>
       </div>
       <div class="more">
-          <img src="./images/show_more.png" alt="show more">
+          <img src="/Assets/imagem/show_more.png" alt="show more">
       </div>
     </div>
     <div class="image">
@@ -32,25 +32,25 @@ if(posts)
       <div class="icons">
           <div class="icon_left d-flex">
               <div class="like">
-                  <img class="not_loved" src="./images/love.png" >
-                  <img class="loved" src="./images/heart.png" >
+                  <img class="not_loved" src="/Assets/imagem/love.png" >
+                  <img class="loved" src="/Assets/imagem/heart.png" >
               </div>
               <div class="chat">
                   <button type="button" class="btn p-0" data-bs-toggle="modal"
                       data-bs-target="#message_modal">
-                      <img src="./images/bubble-chat.png" >
+                      <img src="/Assets/imagem/bubble-chat.png" >
                   </button>
               </div>
               <div class="send">
                   <button type="button" class="btn p-0" data-bs-toggle="modal"
                       data-bs-target="#send_message_modal">
-                      <img src="./images/send.png" >
+                      <img src="/Assets/imagem/send.png" >
                   </button>
               </div>
           </div>
           <div class="save not_saved">
-              <img class="hide saved" src="./images/save_black.png" >
-              <img class="not_saved" src="./images/save-instagram.png" >
+              <img class="hide saved" src="/Assets/imagem/save_black.png" >
+              <img class="not_saved" src="/Assets/imagem/save-instagram.png" >
           </div>
       </div>
       <div class="liked">
@@ -99,11 +99,11 @@ for (var i = 0; i < explore_date.length;i++) {
       <div class="bg"
         <div class="info">
           <div class="likes">
-              <img src="./images/heart_white.png" >
+              <img src="/Assets/imagem/heart_white.png" >
               <span>${explore_date[i][1]}</span>
           </div>
           <div class="comments">
-              <img src="./images/message.png" >
+              <img src="/Assets/imagem/message.png" >
               <span>${explore_date[i++][2]}</span>
           </div>
         </div>
@@ -114,11 +114,11 @@ for (var i = 0; i < explore_date.length;i++) {
       <div class="bg"
         <div class="info">
           <div class="likes">
-              <img src="./images/heart_white.png" >
+              <img src="/Assets/imagem/heart_white.png" >
               <span>${explore_date[i][1]}</span>
           </div>
           <div class="comments">
-              <img src="./images/message.png" >
+              <img src="/Assets/imagem/message.png" >
               <span>${explore_date[i++][2]}</span>
           </div>
         </div>
@@ -129,11 +129,11 @@ for (var i = 0; i < explore_date.length;i++) {
       <div class="bg"
         <div class="info">
           <div class="likes">
-              <img src="./images/heart_white.png" >
+              <img src="/Assets/imagem/heart_white.png" >
               <span>${explore_date[i][1]}</span>
           </div>
           <div class="comments">
-              <img src="./images/message.png" >
+              <img src="/Assets/imagem/message.png" >
               <span>${explore_date[i++][2]}</span>
           </div>
         </div>
@@ -144,11 +144,11 @@ for (var i = 0; i < explore_date.length;i++) {
       <div class="bg"
         <div class="info">
           <div class="likes">
-              <img src="./images/heart_white.png" >
+              <img src="/Assets/imagem/heart_white.png" >
               <span>${explore_date[i][1]}</span>
           </div>
           <div class="comments">
-              <img src="./images/message.png" >
+              <img src="/Assets/imagem/message.png" >
               <span>${explore_date[i++][2]}</span>
           </div>
         </div>
@@ -166,11 +166,11 @@ for (var i = 0; i < explore_date.length;i++) {
   <div class="bg"
     <div class="info">
       <div class="likes">
-          <img src="./images/heart_white.png" >
+          <img src="/Assets/imagem/heart_white.png" >
           <span>${explore_date[i][1]}</span>
       </div>
       <div class="comments">
-          <img src="./images/message.png" >
+          <img src="/Assets/imagem/message.png" >
           <span>${explore_date[i][2]}</span>
       </div>
     </div>
@@ -183,7 +183,7 @@ for (var i = 0; i < explore_date.length;i++) {
 /*****************Reels********************/
 const reels_data = [
   ['./video/video1.mp4',
-  './images/profile_img.jpg',
+  '/Assets/imagem/profile_img.jpg',
   'zineb',
   'Lorem ipsum dolor sit amet, consectetur adipisicing elit.Officiis...',
   'nameOfMusic',
@@ -235,11 +235,11 @@ for(let i=0;i<reels_data.length;i++){
     </video>
     <div class="content">
         <div class="sound">
-            <img class="volume-up" src="./images/volume-up.png" >
-            <img class="volume-mute" src="./images/volume-mute.png" >
+            <img class="volume-up" src="/Assets/imagem/volume-up.png" >
+            <img class="volume-mute" src="/Assets/imagem/volume-mute.png" >
         </div>
         <div class="play">
-            <img src="./images/play-button-arrowhead.png" >
+            <img src="/Assets/imagem/play-button-arrowhead.png" >
         </div>
         <div class="info">
             <div class="profile">
@@ -255,11 +255,11 @@ for(let i=0;i<reels_data.length;i++){
                 </p>
                 <div class="more">
                     <div class="music">
-                        <img src="./images/music.png" >
+                        <img src="/Assets/imagem/music.png" >
                         <span>${reels_data[i][4]}</span>
                     </div>
                     <div class="position">
-                        <img src="./images/map.png" >
+                        <img src="/Assets/imagem/map.png" >
                         <span>${reels_data[i][5]}</span>
                     </div>
                 </div>
@@ -269,27 +269,27 @@ for(let i=0;i<reels_data.length;i++){
 </div>
 <div class="likes">
     <div class="like">
-        <img class="not_loved" src="./images/love.png" >
-        <img class="loved" src="./images/heart.png" >
+        <img class="not_loved" src="/Assets/imagem/love.png" >
+        <img class="loved" src="/Assets/imagem/heart.png" >
         <p> ${reels_data[i][6]}</p>
     </div>
     <div class="messsage">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#message_modal">
-            <img src="./images/bubble-chat.png" >
+            <img src="/Assets/imagem/bubble-chat.png" >
             <p class="m-0">${reels_data[i][7]}</p>
         </button>
     </div>
     <div class="send">
         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#send_message_modal">
-            <img src="./images/send.png" >
+            <img src="/Assets/imagem/send.png" >
         </button>
     </div>
     <div class="save not_saved">
-        <img class="hide saved" src="./images/save_black.png" >
-        <img class="not_saved" src="./images/save-instagram.png" >
+        <img class="hide saved" src="/Assets/imagem/save_black.png" >
+        <img class="not_saved" src="/Assets/imagem/save-instagram.png" >
     </div>
     <div class="more">
-        <img src="./images/show_more.png" >
+        <img src="/Assets/imagem/show_more.png" >
     </div>
     <div class="profile">
         <img src="${reels_data[i][1]}" >
@@ -301,11 +301,11 @@ for(let i=0;i<reels_data.length;i++){
       </video>
       <div class="content">
           <div class="sound">
-              <img class="volume-up" src="./images/volume-up.png" >
-              <img class="volume-mute" src="./images/volume-mute.png" >
+              <img class="volume-up" src="/Assets/imagem/volume-up.png" >
+              <img class="volume-mute" src="/Assets/imagem/volume-mute.png" >
           </div>
           <div class="play">
-              <img src="./images/play-button-arrowhead.png" >
+              <img src="/Assets/imagem/play-button-arrowhead.png" >
           </div>
           <div class="info">
               <div class="profile">
@@ -321,11 +321,11 @@ for(let i=0;i<reels_data.length;i++){
                   </p>
                   <div class="more">
                       <div class="music">
-                          <img src="./images/music.png" >
+                          <img src="/Assets/imagem/music.png" >
                           <span>${reels_data[i][4]}</span>
                       </div>
                       <div class="position">
-                          <img src="./images/map.png" >
+                          <img src="/Assets/imagem/map.png" >
                           <span>${reels_data[i][5]}</span>
                       </div>
                   </div>
@@ -335,27 +335,27 @@ for(let i=0;i<reels_data.length;i++){
   </div>
   <div class="likes">
       <div class="like">
-          <img class="not_loved" src="./images/love.png" >
-          <img class="loved" src="./images/heart.png" >
+          <img class="not_loved" src="/Assets/imagem/love.png" >
+          <img class="loved" src="/Assets/imagem/heart.png" >
           <p> ${reels_data[i][6]}</p>
       </div>
       <div class="messsage">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#message_modal">
-              <img src="./images/bubble-chat.png" >
+              <img src="/Assets/imagem/bubble-chat.png" >
               <p class="m-0">${reels_data[i][7]}</p>
           </button>
       </div>
       <div class="send">
           <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#send_message_modal">
-              <img src="./images/send.png" >
+              <img src="/Assets/imagem/send.png" >
           </button>
       </div>
       <div class="save not_saved">
-          <img class="hide saved" src="./images/save_black.png" >
-          <img class="not_saved" src="./images/save-instagram.png" >
+          <img class="hide saved" src="/Assets/imagem/save_black.png" >
+          <img class="not_saved" src="/Assets/imagem/save-instagram.png" >
       </div>
       <div class="more">
-          <img src="./images/show_more.png" >
+          <img src="/Assets/imagem/show_more.png" >
       </div>
       <div class="profile">
           <img src="${reels_data[i][1]}" >

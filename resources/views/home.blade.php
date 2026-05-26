@@ -24,7 +24,7 @@
                     <div class="cart">
                         <div>
                             <div class="img">
-                                <img src="./images/profile_img.jpg" alt="">
+                                <img src="/Assets/imagem/profile_img.jpg" alt="">
                             </div>
                             <div class="info">
                                 <p class="name">Zineb_essoussi</p>
@@ -43,7 +43,7 @@
                         <div class="cart">
                             <div>
                                 <div class="img">
-                                    <img src="./images/profile_img.jpg" alt="">
+                                    <img src="/Assets/imagem/profile_img.jpg" alt="">
                                 </div>
                                 <div class="info">
                                     <p class="name">Zineb_essoussi</p>
@@ -57,7 +57,7 @@
                         <div class="cart">
                             <div>
                                 <div class="img">
-                                    <img src="./images/profile_img.jpg" alt="">
+                                    <img src="/Assets/imagem/profile_img.jpg" alt="">
                                 </div>
                                 <div class="info">
                                     <p class="name">Zineb_essoussi</p>
@@ -71,7 +71,7 @@
                         <div class="cart">
                             <div>
                                 <div class="img">
-                                    <img src="./images/profile_img.jpg" alt="">
+                                    <img src="/Assets/imagem/profile_img.jpg" alt="">
                                 </div>
                                 <div class="info">
                                     <p class="name">Zineb_essoussi</p>
@@ -109,7 +109,7 @@
                                 <div class="person">
                                     <div class="d-flex">
                                         <div class="img">
-                                            <img src="./images/profile_img.jpg" alt="">
+                                            <img src="/Assets/imagem/profile_img.jpg" alt="">
                                         </div>
                                         <div class="content">
                                             <div class="person">
@@ -125,7 +125,7 @@
                             <div class="person">
                                 <div class="d-flex">
                                     <div class="img">
-                                        <img src="./images/profile_img.jpg" alt="">
+                                        <img src="/Assets/imagem/profile_img.jpg" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="person">
@@ -162,7 +162,7 @@
                             <div class="comment">
                                 <div class="d-flex">
                                     <div class="img">
-                                        <img src="./images/profile_img.jpg" alt="">
+                                        <img src="/Assets/imagem/profile_img.jpg" alt="">
                                     </div>
                                     <div class="content">
                                         <div class="person">
@@ -184,8 +184,8 @@
                                     </div>
                                 </div>
                                 <div class="like">
-                                    <img class="not_loved" src="./images/love.png" alt="">
-                                    <img class="loved" src="./images/heart.png" alt="">
+                                    <img class="not_loved" src="/Assets/imagem/love.png" alt="">
+                                    <img class="loved" src="/Assets/imagem/heart.png" alt="">
                                     <p> 55</p>
                                 </div>
                             </div>
@@ -193,7 +193,7 @@
                                 <div class="response comment">
                                     <div class="d-flex">
                                         <div class="img">
-                                            <img src="./images/profile_img.jpg" alt="">
+                                            <img src="/Assets/imagem/profile_img.jpg" alt="">
                                         </div>
                                         <div class="content">
                                             <div class="person">
@@ -209,8 +209,8 @@
                                         </div>
                                     </div>
                                     <div class="like">
-                                        <img class="not_loved" src="./images/love.png" alt="">
-                                        <img class="loved" src="./images/heart.png" alt="">
+                                        <img class="not_loved" src="/Assets/imagem/love.png" alt="">
+                                        <img class="loved" src="/Assets/imagem/heart.png" alt="">
                                         <p> 55</p>
                                     </div>
                                 </div>
@@ -220,11 +220,11 @@
                     <div class="modal-footer">
                         <form method="post">
                             <div class="input">
-                                <img src="./images/profile_img.jpg" alt="">
+                                <img src="/Assets/imagem/profile_img.jpg" alt="">
                                 <input type="text" id="emoji_comment" placeholder="Add a comment..." />
                             </div>
                             <!-- <div class="emogi">
-                                <img src="./images/emogi.png" alt="">
+                                <img src="/Assets/imagem/emogi.png" alt="">
                             </div> -->
                         </form>
                     </div>
@@ -245,7 +245,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <img class="up_load" src="./images/upload.png" alt="upload">
+                        <img class="up_load" src="/Assets/imagem/upload.png" alt="upload">
                         <p>Drag photos and videos here</p>
                         <button class="btn btn-primary btn_upload">
                             select from your computer
@@ -261,7 +261,7 @@
                                 <div class="cart">
                                     <div>
                                         <div class="img">
-                                            <img src="./images/profile_img.jpg">
+                                            <img src="/Assets/imagem/profile_img.jpg">
                                         </div>
                                         <div class="info">
                                             <p class="name">Zineb_essoussi</p>
@@ -274,7 +274,7 @@
                             </div>
                         </div>
                         <div class="post_published hide_img">
-                            <img src="./images/uploaded_post.gif" alt="">
+                            <img src="/Assets/imagem/uploaded_post.gif" alt="">
                         </div>
                     </div>
                 </div>
