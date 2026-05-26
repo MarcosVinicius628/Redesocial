@@ -12,6 +12,17 @@ RUN apt-get clean && apt-get update --fix-missing && apt-get install -y --no-ins
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+ FROM alpine:3.19
+
+RUN apk update && apk add --no-cache \
+    git \
+    curl \
+    zip \
+    unzip \
+    php82 \
+    php82-pdo \
+    php82-pdo_pgsql \
+    php82-zip
 # Copia o Composer para dentro do container
 WORKDIR /var/www/html
 # Define a pasta principal da aplicação
